@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60c80a25-cae3-4ee2-b234-802ae0f41624" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XzOBQMrp3iZdBphPDedZSwUwWQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deckard-data" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="RedPoints" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler.py" />
+      <option name="PARAMETERS" value="ruby,rails Issues" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60c80a25-cae3-4ee2-b234-802ae0f41624" name="Default Changelist" comment="" />
+      <created>1582045320554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582045320554</updated>
+      <workItem from="1582045322522" duration="13477000" />
+      <workItem from="1582159355035" duration="5833000" />
+      <workItem from="1582165897914" duration="2466000" />
+      <workItem from="1582168382274" duration="579000" />
+      <workItem from="1582168978884" duration="5260000" />
+      <workItem from="1582209075291" duration="15313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="492" y="120" key="#Inspections" timestamp="1582166766906">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="492" y="120" key="#Inspections/65.24.1855.1056@65.24.1855.1056" timestamp="1582166766906" />
+    <state x="476" y="384" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582226015080">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state x="476" y="336" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582158211486" />
+    <state x="476" y="336" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1582163713153" />
+    <state x="476" y="384" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.2136@65.24.1855.2136" timestamp="1582226015080" />
+    <state x="301" y="24" width="1518" height="1056" key="#xdebugger.evaluate" timestamp="1582225788292">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state x="696" y="142" key="#xdebugger.evaluate/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582158521269" />
+    <state x="301" y="59" width="1518" height="791" key="#xdebugger.evaluate/65.24.1855.1056@65.24.1855.1056" timestamp="1582166462207" />
+    <state x="301" y="24" width="1518" height="1056" key="#xdebugger.evaluate/65.24.1855.2136@65.24.1855.2136" timestamp="1582225788292" />
+    <state width="863" height="1271" key="DebuggerActiveHint" timestamp="1582215616954">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state width="863" height="628" key="DebuggerActiveHint/65.24.1855.1056@65.24.1855.1056" timestamp="1582164902717" />
+    <state width="863" height="1271" key="DebuggerActiveHint/65.24.1855.2136@65.24.1855.2136" timestamp="1582215616954" />
+    <state x="727" y="24" width="530" height="1056" key="FileChooserDialogImpl" timestamp="1582226948813">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state x="727" y="240" key="FileChooserDialogImpl/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582120904593" />
+    <state x="727" y="240" width="530" height="596" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1582208899072" />
+    <state x="727" y="24" width="530" height="1056" key="FileChooserDialogImpl/65.24.1855.2136@65.24.1855.2136" timestamp="1582226948813" />
+    <state width="1799" height="275" key="GridCell.Tab.0.bottom" timestamp="1582227427470">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state width="1799" height="341" key="GridCell.Tab.0.bottom/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582158437969" />
+    <state width="1799" height="341" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1582168961514" />
+    <state width="1799" height="275" key="GridCell.Tab.0.bottom/65.24.1855.2136@65.24.1855.2136" timestamp="1582227427470" />
+    <state width="1799" height="275" key="GridCell.Tab.0.center" timestamp="1582227427466">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state width="1799" height="341" key="GridCell.Tab.0.center/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582158437969" />
+    <state width="1799" height="341" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1582168961513" />
+    <state width="1799" height="275" key="GridCell.Tab.0.center/65.24.1855.2136@65.24.1855.2136" timestamp="1582227427466" />
+    <state width="1799" height="275" key="GridCell.Tab.0.left" timestamp="1582227427460">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state width="1799" height="341" key="GridCell.Tab.0.left/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582158437969" />
+    <state width="1799" height="341" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1582168961512" />
+    <state width="1799" height="275" key="GridCell.Tab.0.left/65.24.1855.2136@65.24.1855.2136" timestamp="1582227427460" />
+    <state width="1799" height="275" key="GridCell.Tab.0.right" timestamp="1582227427468">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state width="1799" height="341" key="GridCell.Tab.0.right/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582158437969" />
+    <state width="1799" height="341" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1582168961514" />
+    <state width="1799" height="275" key="GridCell.Tab.0.right/65.24.1855.2136@65.24.1855.2136" timestamp="1582227427468" />
+    <state width="1799" height="341" key="GridCell.Tab.1.bottom" timestamp="1582225837463">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state width="1799" height="341" key="GridCell.Tab.1.bottom/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582158438887" />
+    <state width="1799" height="341" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1582168961516" />
+    <state width="1799" height="341" key="GridCell.Tab.1.bottom/65.24.1855.2136@65.24.1855.2136" timestamp="1582225837463" />
+    <state width="1799" height="341" key="GridCell.Tab.1.center" timestamp="1582225837459">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state width="1799" height="341" key="GridCell.Tab.1.center/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582158438887" />
+    <state width="1799" height="341" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1582168961515" />
+    <state width="1799" height="341" key="GridCell.Tab.1.center/65.24.1855.2136@65.24.1855.2136" timestamp="1582225837459" />
+    <state width="1799" height="341" key="GridCell.Tab.1.left" timestamp="1582225837458">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state width="1799" height="341" key="GridCell.Tab.1.left/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582158438887" />
+    <state width="1799" height="341" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1582168961515" />
+    <state width="1799" height="341" key="GridCell.Tab.1.left/65.24.1855.2136@65.24.1855.2136" timestamp="1582225837458" />
+    <state width="1799" height="341" key="GridCell.Tab.1.right" timestamp="1582225837459">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state width="1799" height="341" key="GridCell.Tab.1.right/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582158438887" />
+    <state width="1799" height="341" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1582168961516" />
+    <state width="1799" height="341" key="GridCell.Tab.1.right/65.24.1855.2136@65.24.1855.2136" timestamp="1582225837459" />
+    <state x="363" y="151" key="SettingsEditor" timestamp="1582213265733">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state x="363" y="87" key="SettingsEditor/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582157490727" />
+    <state x="363" y="87" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1582209118524" />
+    <state x="363" y="151" key="SettingsEditor/65.24.1855.2136@65.24.1855.2136" timestamp="1582213265733" />
+    <state width="1530" height="1105" key="XDebugger.FullValuePopup" timestamp="1582225114617">
+      <screen x="65" y="24" width="1855" height="2136" />
+    </state>
+    <state width="1530" height="546" key="XDebugger.FullValuePopup/65.24.1855.1056@65.24.1855.1056" timestamp="1582165041613" />
+    <state width="1530" height="1105" key="XDebugger.FullValuePopup/65.24.1855.2136@65.24.1855.2136" timestamp="1582225114617" />
+    <state x="568" y="143" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582054321567">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="568" y="143" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1582054321567" />
+    <state x="700" y="409" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582207804196">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="700" y="409" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1582207804196" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/crawler.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RedPoints$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1582226150641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
