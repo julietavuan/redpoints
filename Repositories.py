@@ -3,6 +3,9 @@ import json
 
 class Repositories(Strategy):
 
+    def get_name(self):
+        return("Repositories")
+
     def search_gitHub_data(self, soup):
         repos = []
         repositories = soup.findAll("a", {"class": "v-align-middle"})

@@ -18,4 +18,8 @@ class Type:
 
     def searchParams(self, html):
         soup = BeautifulSoup(html, 'html.parser')
-        return self._strategy.search_gitHub_data(soup)
+        if len(soup.find_all("div",{"class":"blankslate"})) > 0:
+            print("There isn't an output with the specific search. Please try again")
+            return {"url":"None"}
+        else:
+            return self._strategy.search_gitHub_data(soup)

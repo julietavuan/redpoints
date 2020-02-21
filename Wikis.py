@@ -3,6 +3,9 @@ import json
 
 class Wikis(Strategy):
 
+    def get_name(self):
+        return("Wikis")
+
     def search_gitHub_data(self, soup):
         wikis_url = []
         wikis = soup.findAll("div", {"class": "f4 text-normal"})

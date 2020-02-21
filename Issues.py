@@ -3,6 +3,9 @@ import json
 
 class Issues(Strategy):
 
+    def get_name(self):
+        return("Issues")
+
     def search_gitHub_data(self, soup):
         url_issues = []
         issues = soup.findAll("div", {"class": "f4 text-normal"})
