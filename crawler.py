@@ -9,7 +9,7 @@ from verify import Verify
 
 class Crawler:
 
-    def github_setter(self, github):
+    def __init__(self, github):
         self.github = github
 
     def usage(self):
@@ -22,7 +22,6 @@ class Crawler:
         try:
             gitHubType = FactoryTypes.factory_method(data[2])
             type = Type(gitHubType)
-            self.github_setter(GitHubConnector())
             return type.searchParams(self.github.get_content(data))
         except Exception as e:
             print(str(e))
@@ -30,7 +29,7 @@ class Crawler:
 
 
 if __name__ == '__main__':
-    crawler = Crawler()
+    crawler = Crawler(GitHubConnector())
     if len(sys.argv)== 3:
         verify = Verify()
         if verify.verifyParams(sys.argv):

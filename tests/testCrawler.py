@@ -1,10 +1,19 @@
 import unittest
+from unittest.mock import Mock
+
 from crawler import Crawler
+
+def constructorMock(name):
+    instance = Mock()
+    instance._name_of_parent_class = name
+    constructor = Mock(return_value=instance)
+    return constructor
 
 class CrawlerTes(unittest.TestCase):
 
     def setUp(self) -> None:
-        self.crawler = Crawler()
+        self.github = constructorMock("GitHubConnector")
+        self.crawler = Crawler(self.github)
         self.data = ["a","ruby,rails","Repositories"]
 
     def test_usage(self):
@@ -16,6 +25,7 @@ class CrawlerTes(unittest.TestCase):
 
     def test_search_ok(self):
         self.setUp()
+
         result = self.crawler.searchData(self.data)
         self.assertEqual(len(result),10)
 
