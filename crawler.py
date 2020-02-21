@@ -5,7 +5,6 @@ from lxml.html import fromstring
 from itertools import cycle
 
 from FactoryTypes import FactoryTypes
-from Strategy import Strategy
 from Type import Type
 
 
@@ -21,7 +20,7 @@ def usage():
           "divided by comma. For example: python3 crawler.py ruby,rails Repositories 10.0.0.19:98982,10.0.25.19:96782")
 
 def get_proxies():
-    url = 'http://free-proxy-list.net/'
+    url = 'https://free-proxy-list.net/'
     response = requests.get(url)
     parser = fromstring(response.text)
     proxies = set()
@@ -32,19 +31,16 @@ def get_proxies():
     return proxies
 
 def get_content(github_url):
-    # proxies = get_proxies()
-    # proxy_pool = cycle(proxies)
-    # for i in range(1, 11):
-    #     proxy = next(proxy_pool)
-    #     try:
-    #         response = requests.get(github_url, proxies={"http": proxy, "https": proxy})
-    #         if response.status_code == 200:
-    #             return response.text
-    #     except Exception as e:
-    #         print(str(e))
-    response = requests.get(github_url)
-    if response.status_code == 200:
-        return response.text
+    proxies = get_proxies()
+    proxy_pool = cycle(proxies)
+    for i in range(1, 11):
+        proxy = next(proxy_pool)
+        try:
+            response = requests.get(github_url, proxies={"http://" + proxy : "https://" + proxy})
+            if response.status_code == 200:
+                return response.text
+        except Exception as e:
+            print(str(e))
 
 def url_format(words, url):
     keywords= words[1].replace(",","+")

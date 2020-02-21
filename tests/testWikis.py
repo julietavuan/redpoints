@@ -10,8 +10,8 @@ class WikisTest(unittest.TestCase):
         filename = os.path.join(dir, "mocks", "wikis-result-ok.html")
         text = open(filename)
         soup = BeautifulSoup(text, "html.parser")
+        text.close()
         wikis = Wikis()
-
         w = wikis.search_gitHub_data(soup)
         self.assertEqual(len(w), 10)
 

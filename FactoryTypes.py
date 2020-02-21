@@ -15,10 +15,8 @@ class FactoryTypes(ABC):
 
     @classmethod
     def factory_method(self, gitHubType):
-        try:
-            if gitHubType in FactoryTypes.factory.keys():
-                return FactoryTypes.factory[gitHubType]
-        except AttributeError as ae:
-            print("Error in type of Search, please send Repositories, Wikis or Issues type.")
-            logging.ERROR(ae)
+        if gitHubType in FactoryTypes.factory.keys():
+            return FactoryTypes.factory[gitHubType]
+        else:
+            return None
 

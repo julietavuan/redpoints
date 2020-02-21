@@ -11,6 +11,7 @@ class RepositoriesTest(unittest.TestCase):
         filename = os.path.join(dir, "mocks","repositories-result-ok.html")
         text = open(filename)
         soup = BeautifulSoup(text, "html.parser")
+        text.close()
         repositories = Repositories()
 
         r = repositories.search_gitHub_data(soup)

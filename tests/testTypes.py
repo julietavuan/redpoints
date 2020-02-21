@@ -12,6 +12,7 @@ class TypesTest(unittest.TestCase):
         strategy = Repositories()
         strategyType = Type(strategy)
         response =strategyType.searchParams(text)
+        text.close()
         self.assertEqual(len(response),10)
 
     def testParseWrong(self):
@@ -20,8 +21,9 @@ class TypesTest(unittest.TestCase):
         text = open(filename)
         strategy = Repositories()
         strategyType = Type(strategy)
-        response =strategyType.searchParams(text)
-        self.assertEqual(len(response),0)
+        response = strategyType.searchParams(text)
+        text.close()
+        self.assertEqual(len(response),1)
 
 if __name__ == '__main__':
     unittest.main()

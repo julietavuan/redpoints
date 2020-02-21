@@ -9,6 +9,7 @@ class IssuesTest(unittest.TestCase):
         filename = os.path.join(dir, "mocks", "issues-result-ok.html")
         text = open(filename)
         soup = BeautifulSoup(text, "html.parser")
+        text.close()
         issues = Issues()
 
         i = issues.search_gitHub_data(soup)
