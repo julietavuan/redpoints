@@ -1,9 +1,9 @@
 import unittest
-
+import sys
 
 class CrawlerTes(unittest.TestCase):
 
-    def testVerifyParamsOk(self): pass
+    def testVerifyParamsOk(self):pass
 
     def testVerifyParamsWrongKeyWords(self):pass
 
