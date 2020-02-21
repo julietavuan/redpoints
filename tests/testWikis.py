@@ -1,7 +1,7 @@
 import unittest
 import os
 from bs4 import BeautifulSoup
-from Wikis import Wikis
+from wikis import Wikis
 
 
 class WikisTest(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from Proxy import Proxy
+from proxy import Proxy
 
 class TestProxy (unittest.TestCase):
 

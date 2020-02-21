@@ -1,5 +1,5 @@
 from __future__ import annotations
-from Strategy import Strategy
+from strategy import Strategy
 from bs4 import BeautifulSoup
 
 class Type:

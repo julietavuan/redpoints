@@ -1,5 +1,5 @@
 import unittest
-from Verify import Verify
+from verify import Verify
 
 class TestVerify(unittest.TestCase):
 

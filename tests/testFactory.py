@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import Mock
-import FactoryTypes
+import factoryTypes
 
 
 def constructorMock(name):
@@ -12,14 +12,14 @@ def constructorMock(name):
 class FactoryTest(unittest.TestCase):
 
     def setUp(self):
-        FactoryTypes.factory = {}
-        FactoryTypes.factory["Repositories"] = constructorMock("Repositories")
-        FactoryTypes.factory["Issues"] = constructorMock("Issues")
-        FactoryTypes.factory["Wikis"] = constructorMock("Wikis")
+        factoryTypes.factory = {}
+        factoryTypes.factory["Repositories"] = constructorMock("Repositories")
+        factoryTypes.factory["Issues"] = constructorMock("Issues")
+        factoryTypes.factory["Wikis"] = constructorMock("Wikis")
 
 
     def testCreationOfStrategyOk(self):
-        factoryType = FactoryTypes.FactoryTypes()
+        factoryType = factoryTypes.FactoryTypes()
         strategyR = factoryType.factory_method("Repositories")
         strategyI = factoryType.factory_method("Issues")
         strategyW = factoryType.factory_method("Wikis")
@@ -28,7 +28,7 @@ class FactoryTest(unittest.TestCase):
         self.assertEqual(strategyW.get_name(),"Wikis")
 
     def testCreationOfStrategyWrong(self):
-        factoryType = FactoryTypes.FactoryTypes()
+        factoryType = factoryTypes.FactoryTypes()
         strategyR = factoryType.factory_method("Asd")
         self.assertEqual(None,strategyR)
 

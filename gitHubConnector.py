@@ -1,4 +1,4 @@
-from Proxy import Proxy
+from proxy import Proxy
 from itertools import cycle
 import requests
 
@@ -18,6 +18,8 @@ class GitHubConnector:
                 response = requests.get(url, proxies={"http://" + proxy: "https://" + proxy})
                 if response.status_code == 200:
                     return response.text
+                else:
+                    return "No reponse of GitHub"
             except Exception as e:
                 print(str(e))
 

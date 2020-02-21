@@ -1,9 +1,9 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
 import logging
-from Issues import Issues
-from Repositories import Repositories
-from Wikis import Wikis
+from issues import Issues
+from repositories import Repositories
+from wikis import Wikis
 
 
 class FactoryTypes(ABC):

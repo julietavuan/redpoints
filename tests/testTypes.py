@@ -1,7 +1,7 @@
 import unittest
 import os
-from Repositories import Repositories
-from Type import Type
+from repositories import Repositories
+from type import Type
 
 class TypesTest(unittest.TestCase):
 

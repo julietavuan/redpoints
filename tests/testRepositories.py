@@ -1,7 +1,7 @@
 import unittest
 from  bs4 import BeautifulSoup
 import os
-from Repositories import Repositories
+from repositories import Repositories
 
 
 class RepositoriesTest(unittest.TestCase):

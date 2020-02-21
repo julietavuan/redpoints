@@ -1,7 +1,7 @@
 import unittest
 import os
 from bs4 import BeautifulSoup
-from Issues import Issues
+from issues import Issues
 
 class IssuesTest(unittest.TestCase):
     def testIssuesParseOk(self):

@@ -1,4 +1,4 @@
-from Strategy import Strategy
+from strategy import Strategy
 import json
 
 class Wikis(Strategy):

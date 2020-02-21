@@ -1,29 +1,23 @@
 import unittest
-import sys
+from crawler import Crawler
 
 class CrawlerTes(unittest.TestCase):
 
-    def testVerifyParamsOk(self):pass
+    def setUp(self) -> None:
+        self.crawler = Crawler()
+        self.data = ["a","ruby,rails","Repositories"]
 
-    def testVerifyParamsWrongKeyWords(self):pass
+    def test_usage(self):
+        self.setUp()
+        result = self.crawler.usage()
+        self.assertEqual("To use this crawler please send keywords divided by comma, type for the search and the proxys to use also "
+              "divided by comma. For example: python3 crawler.py ruby,rails Repositories 10.0.0.19:98982,10.0.25.19:96782."
+              "The Keywords must be in the form of word,word.",result)
 
-    def testVerifyParamsWrongType(self):pass
-
-    def testSearchDataOk(self):pass
-
-    def testSearchDataNoMatches(self):pass
-
-    def testSearchDataWrongInstanceFactory(self):pass
-
-    def testSearchDataWrongStrategy(self):pass
-
-    def testSearchDataWrongProxys(self):pass
-
-    def testSearchDataWrongURL(self):pass
-
-    def testSearchDataWrongGitHubResponse(self):pass
-
-    def testSearchDataWrongStrategyParse(self):pass
+    def test_search_ok(self):
+        self.setUp()
+        result = self.crawler.searchData(self.data)
+        self.assertEqual(len(result),10)
 
 if __name__ == '__main__':
     unittest.main()
