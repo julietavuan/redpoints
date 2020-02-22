@@ -6,16 +6,25 @@ from repositories import Repositories
 
 class RepositoriesTest(unittest.TestCase):
 
-    def testRepositoriesParseOk(self):
+    def setUp(self) -> None:
         dir = os.path.dirname(__file__)
-        filename = os.path.join(dir, "mocks","repositories-result-ok.html")
+        filename = os.path.join(dir, "mocks", "repositories-result-ok.html")
         text = open(filename)
-        soup = BeautifulSoup(text, "html.parser")
+        self.soup = BeautifulSoup(text, "html.parser")
         text.close()
-        repositories = Repositories()
+        self.repositories = Repositories()
 
-        r = repositories.search_gitHub_data(soup)
+    def testRepositoriesParseOk(self):
+        self.setUp()
+        r = self.repositories.search_gitHub_data(self.soup)
+        self.assertEqual(r[0]["url"],"https://github.com/rails/rails")
         self.assertEqual(len(r),10)
+
+    def testRepositoriesBonus(self):
+        self.setUp()
+        url = "https://github.com/OLIMEX/OLINUXINO"
+        r = self.repositories.get_repository_data(url)
+        self.assertEqual(r["extra"]["owner"],"OLIMEX")
 
 if __name__ == '__main__':
     unittest.main()

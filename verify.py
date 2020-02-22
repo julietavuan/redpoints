@@ -12,4 +12,14 @@ class Verify:
         return isinstance(keywords, str)
 
     def verifyParams(self, args):
-        return self.verifyKeywords(args[1]) and self.verifiedType(args[2])
+        if self.verifyKeywords(args[1]):
+            if self.verifiedType(args[2]):
+                return True
+            else:
+                print("There is an error in the type of search. Please send Repositories, Issues or Wikis")
+                return False
+        else:
+            print("There is an error in the Keywords. Please send words divided by commas in unicode type.")
+            return False
+
+
