@@ -11,8 +11,8 @@ class IssuesTest(unittest.TestCase):
         soup = BeautifulSoup(text, "html.parser")
         text.close()
         issues = Issues()
-
         i = issues.search_gitHub_data(soup)
+        self.assertEqual(i[0]["url"],'https://github.com/simple-icons/simple-icons/issues/2385')
         self.assertEqual(len(i), 10)
 
 

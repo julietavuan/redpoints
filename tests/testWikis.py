@@ -13,6 +13,7 @@ class WikisTest(unittest.TestCase):
         text.close()
         wikis = Wikis()
         w = wikis.search_gitHub_data(soup)
+        self.assertEqual(w[0]["url"],'https://github.com//xuanrljp/genba/wiki/Ruby&Rails')
         self.assertEqual(len(w), 10)
 
 
